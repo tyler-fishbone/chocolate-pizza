@@ -1,0 +1,77 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  width: 901px;
+}
+
+/* CSS for Header */
+
+header section {
+  width: 480;
+}
+
+header section img {
+  float: left;
+}
+
+header section h1 {
+  font-family: cursive;
+  font-size: 1.5em;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: rgb(114, 114, 114);
+  font-size: .5em;
+}
+
+header div {
+  width: 480;
+  position: relative;
+  bottom: 15px;
+}
+
+header ul {
+  float: right;
+}
+
+header ul li{
+  display: inline-block;
+}
+
+/* CSS for Main */
+
+main article section h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2em;
+}
+
+main article section ul li {
+  display: inline-block;
+  position: relative;
+  left: 850px;
+  bottom: 10px;
+}
+
+main article img {
+  width: 960;
+}
+
+main article p {
+  margin: 30px 0px 30px 0px;
+  text-indent: 30px;
+  color: rgb(92, 92, 92)
+}
+
+main ul {
+  background-color: aqua;
+}
+
+
+main ul ul {
+  display: inline-block;
+  margin: 50px;
+}
+
+main ul ul {
+  font-family: 'Shadows Into Light Two', cursive;
+}
