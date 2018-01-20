@@ -62,16 +62,53 @@ main article p {
   color: rgb(92, 92, 92)
 }
 
-main ul {
+section div {
   background-color: aqua;
+  background-image: url('https://naldzgraphics.net/wp-content/uploads/2012/08/16-Yellow.jpg');
 }
 
-
-main ul ul {
+main div ul {
   display: inline-block;
-  margin: 50px;
+  margin: 40px 50px;
+  padding-left: 100px;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 1.25em;
 }
 
-main ul ul {
-  font-family: 'Shadows Into Light Two', cursive;
+/* CSS Aside Content */
+
+aside {
+  width: 901px;
+  height: 100px;
 }
+
+aside div img {
+  float: left;
+}
+
+aside div h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.25em;
+  margin: 5px;
+  margin-left: 80px;
+}
+
+aside div p {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 5px;
+  margin-left: 80px;
+  max-width: 500px;
+}
+
+aside div button {
+  float: right;
+  position: relative;
+  bottom: 55px;
+  text-transform: capitalize;
+  font-size: 1em;
+  background: rgb(226, 119, 100);
+  padding: 15px 25px;
+}
+
+/* Footer CSS */
+
