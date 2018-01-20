@@ -6,23 +6,28 @@ body {
 
 /* CSS for Header */
 
+header {
+  margin-top: 10px;
+}
+
 header section {
   width: 480;
 }
 
 header section img {
   float: left;
+  margin-right: 8px;
 }
 
 header section h1 {
   font-family: cursive;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 h3 {
   text-transform: uppercase;
   color: rgb(114, 114, 114);
-  font-size: .5em;
+  font-size: .6em;
 }
 
 header div {
@@ -37,6 +42,14 @@ header ul {
 
 header ul li{
   display: inline-block;
+}
+
+main hr {
+  margin-top: 30px;
+  margin-bottom: 40px;
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
 }
 
 /* CSS for Main */
@@ -60,20 +73,28 @@ main article img {
 main article p {
   margin: 30px 0px 30px 0px;
   text-indent: 30px;
-  color: rgb(92, 92, 92)
+  color: rgb(92, 92, 92);
+  line-height: 20px;
 }
 
 section div {
   background-color: aqua;
-  background-image: url('https://naldzgraphics.net/wp-content/uploads/2012/08/16-Yellow.jpg');
+  /* background-image: url('https://naldzgraphics.net/wp-content/uploads/2012/08/16-Yellow.jpg'); */
+  background-image: url('https://ak0.picdn.net/shutterstock/videos/8424010/thumb/1.jpg');
 }
 
-main div ul {
+main section div ul {
   display: inline-block;
-  margin: 40px 50px;
+  margin: 63px 50px;
   padding-left: 100px;
   font-family: 'Shadows Into Light Two', cursive;
   font-size: 1.25em;
+  line-height: 33px;
+  list-style-type: square;
+}
+
+.crossed-out {
+  text-decoration: line-through; 
 }
 
 /* CSS Aside Content */
@@ -99,7 +120,9 @@ aside div p {
   margin: 5px;
   margin-left: 80px;
   max-width: 500px;
+  line-height: 20px;
 }
+
 
 aside div button {
   float: right;
@@ -126,7 +149,12 @@ footer h3 {
   line-height: 20px;
 }
 
+footer hr {
+  background-color: #000;
+  width: 100%;
+}
+
 footer {
   margin-bottom: 50px;
-
 }
+
