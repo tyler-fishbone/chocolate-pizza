@@ -1,6 +1,7 @@
 body {
   font-family: 'Times New Roman', Times, serif;
   width: 901px;
+  margin: auto;
 }
 
 /* CSS for Header */
@@ -49,7 +50,7 @@ main article section ul li {
   display: inline-block;
   position: relative;
   left: 850px;
-  bottom: 10px;
+  bottom: 12px;
 }
 
 main article img {
@@ -112,3 +113,20 @@ aside div button {
 
 /* Footer CSS */
 
+footer img {
+  position: relative;
+  left: calc(50% - 15px);
+  bottom: 27px;
+}
+
+footer h3 {
+  text-transform: none;
+  text-align: center;
+  font-size: 1em;
+  line-height: 20px;
+}
+
+footer {
+  margin-bottom: 50px;
+
+}
