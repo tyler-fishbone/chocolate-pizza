@@ -1,0 +1,160 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  width: 901px;
+  margin: auto;
+}
+
+/* CSS for Header */
+
+header {
+  margin-top: 10px;
+}
+
+header section {
+  width: 480;
+}
+
+header section img {
+  float: left;
+  margin-right: 8px;
+}
+
+header section h1 {
+  font-family: cursive;
+  font-size: 2em;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: rgb(114, 114, 114);
+  font-size: .6em;
+}
+
+header div {
+  width: 480;
+  position: relative;
+  bottom: 15px;
+}
+
+header ul {
+  float: right;
+}
+
+header ul li{
+  display: inline-block;
+}
+
+main hr {
+  margin-top: 30px;
+  margin-bottom: 40px;
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
+/* CSS for Main */
+
+main article section h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2em;
+}
+
+main article section ul li {
+  display: inline-block;
+  position: relative;
+  left: 850px;
+  bottom: 12px;
+}
+
+main article img {
+  width: 960;
+}
+
+main article p {
+  margin: 30px 0px 30px 0px;
+  text-indent: 30px;
+  color: rgb(92, 92, 92);
+  line-height: 20px;
+}
+
+section div {
+  background-color: aqua;
+  /* background-image: url('https://naldzgraphics.net/wp-content/uploads/2012/08/16-Yellow.jpg'); */
+  background-image: url('https://ak0.picdn.net/shutterstock/videos/8424010/thumb/1.jpg');
+}
+
+main section div ul {
+  display: inline-block;
+  margin: 63px 50px;
+  padding-left: 100px;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 1.25em;
+  line-height: 33px;
+  list-style-type: square;
+}
+
+.crossed-out {
+  text-decoration: line-through; 
+}
+
+/* CSS Aside Content */
+
+aside {
+  width: 901px;
+  height: 100px;
+}
+
+aside div img {
+  float: left;
+}
+
+aside div h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.25em;
+  margin: 5px;
+  margin-left: 80px;
+}
+
+aside div p {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 5px;
+  margin-left: 80px;
+  max-width: 500px;
+  line-height: 20px;
+}
+
+
+aside div button {
+  float: right;
+  position: relative;
+  bottom: 55px;
+  text-transform: capitalize;
+  font-size: 1em;
+  background: rgb(226, 119, 100);
+  padding: 15px 25px;
+}
+
+/* Footer CSS */
+
+footer img {
+  position: relative;
+  left: calc(50% - 15px);
+  bottom: 27px;
+}
+
+footer h3 {
+  text-transform: none;
+  text-align: center;
+  font-size: 1em;
+  line-height: 20px;
+}
+
+footer hr {
+  background-color: #000;
+  width: 100%;
+}
+
+footer {
+  margin-bottom: 50px;
+}
+
